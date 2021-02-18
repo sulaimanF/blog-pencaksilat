@@ -1,0 +1,170 @@
+.slider h3,
+.slider h5,
+.clients h3 {
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.judul {
+    height: 25px;
+}
+
+/* content 1 */
+.content-satu {
+    margin-top: 100px;
+    margin-bottom: -70px;
+}
+
+.blog-satu {
+    width: 500px;
+    height: 300px;
+    margin-left: 40px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
+    border-radius: 12px;
+}
+
+.pKiri,
+.blog-satu {
+    opacity: 0;
+    transform: translate(-50px, 0);
+    transition: 1s;
+}
+
+.blog-satu {
+    transform: translate(50px, 0);
+}
+
+.pKiri.pMuncul,
+.blog-satu.pMuncul {
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
+/* content 2 */
+.content-dua {
+    margin-top: 140px;
+    margin-bottom: -70px;
+}
+
+.blog-dua {
+    width: 500px;
+    height: 300px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
+    border-radius: 12px;
+}
+
+.kanan,
+.penjelasan {
+    margin-left: 60px;
+}
+
+.content-dua .blog-dua {
+    opacity: 0;
+    transform: translate(0, -40px);
+    transition: .5s;
+}
+
+.content-dua .blog-dua.muncul {
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
+/* content 3 */
+.content-tiga {
+    margin-top: 140px;
+    margin-bottom: -70px;
+}
+
+.blog-tiga {
+    width: 500px;
+    height: 300px;
+    margin-left: 40px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
+    border-radius: 12px;
+}
+
+.content-tiga .blog-tiga {
+    opacity: 0;
+    transform: translate(0, -40px);
+    transition: .5s;
+}
+
+.content-tiga .blog-tiga.muncul {
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
+/* content 4 */
+.content-empat {
+    margin-top: 140px;
+    margin-bottom: 70px;
+}
+
+.blog-empat {
+    width: 500px;
+    height: 300px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
+    border-radius: 12px;
+}
+
+.content-empat .blog-empat {
+    opacity: 0;
+    transform: translate(0, -40px);
+    transition: .5s;
+}
+
+.content-empat .blog-empat.muncul {
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
+.parallax-container {
+    height: 20%;
+}
+
+.parallax img {
+    filter: grayscale(1);
+    opacity: 0.5 !important;
+}
+
+.clients img {
+    max-width: 150px;
+    filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.8));
+}
+
+#clients {
+    height: 150px;
+}
+
+.sidebar {
+    /* width: 300px; */
+    float: right;
+    /* padding: 20px; */
+}
+
+/* .sidebar h3 {
+    font-weight: bold;
+    color: #666;
+} */
+
+.sidebar img {
+    float: left;
+    padding-right: 10px;
+}
+
+.sidebar p {
+    font: 13px arial;
+    text-align: justify;
+    margin-right: 150px;
+}
+
+/* .sidebar a img {
+    padding: 10px;
+} */
+
+section {
+    padding: 20px 0;
+}
+
+footer.page-footer {
+    margin: 0;
+}
